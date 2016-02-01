@@ -1,0 +1,53 @@
+#heading, h1, a:link, a:visited {
+  text-decoration: none;
+  border: 5px black;
+  padding: 50px 0px 25px 0px;
+  text-align: center;
+
+ -webkit-animation-name: example; /* Chrome, Safari, Opera */
+ -webkit-animation-duration: 5s; /* Chrome, Safari, Opera */
+ animation-name: example;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes example {
+    0%   { color: red;}
+    25%  { color: yellow;}
+    50%  { color: blue;}
+    75% { color: green;}
+    100% {color: orange;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   { color: red;}
+    25%  { color: yellow;}
+    50%  { color: blue;}
+    75% { color: green;}
+    100% { color: orange;}
+}
+
+#content {
+  text-align: center;
+} 
+
+#footer {
+  text-align: center;
+}
+
+
+.sad {
+  background-color: blue;
+  color: white;
+}
+
+.angry{
+  background-color: red;
+  color: black;
+}
+
+.happy{
+  background-color: orange;
+}
